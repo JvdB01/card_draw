@@ -4,7 +4,7 @@ from PIL import Image
 suits = ['C', 'D', 'H', 'S']
 
 suit = random.choice(suits)
-number = random.randint(1, 14)
+number = random.randint(1, 13)
 
 card = suit+str(number)
 
