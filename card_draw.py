@@ -1,11 +1,10 @@
 import random
 from PIL import Image
-from os import listdir
 
 suits = ['C', 'D', 'H', 'S']
 
 suit = random.choice(suits)
-number = random.randrange(1, 14)
+number = random.randint(1, 14)
 
 card = suit+str(number)
 
